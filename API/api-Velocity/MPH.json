@@ -1,0 +1,14 @@
+{
+ "result":"success",
+ "base_code":"MPH",
+ "conversion_rates":{
+  "MPH":1,
+  "KMH":1.61,
+  "KMS":0.000447,
+  "MS":0.45,
+  "μMS":447040,
+  "MMS":447.04,
+  "MPS":0.000278,
+  "FPS":1.47
+ }
+}

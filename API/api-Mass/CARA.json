@@ -1,0 +1,17 @@
+{
+ "result":"success",
+ "base_code":"CARA",
+ "conversion_rates":{
+  "CARA":1,
+  "CG":20,
+  "DAG":0.02,
+  "G":0.2,
+  "HG":0.002,
+  "KG":0.0002,
+  "LB":0.000441,
+  "MG":200,
+  "OZ":0.01,
+  "TA":0.000002,
+  "TAN":0.0000002
+ }
+}

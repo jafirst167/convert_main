@@ -1,0 +1,12 @@
+{
+"result":"success",
+"base_code":"kJ", 
+"conversion_rates":{
+"kJ":1, 
+"J":1000, 
+"cal":238.8459,
+"BTU":0.94782,
+"kWh":0.00028,
+"th":0.00024
+}
+}

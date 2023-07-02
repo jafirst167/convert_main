@@ -1,0 +1,12 @@
+{
+"result":"success",
+"base_code":"inH2O",
+"conversion_rates":{
+"inH2O":1,
+"Pa":249.08205,
+"atm":0.00246, 
+"mmHg":1.86827,
+"hPa":2.49082,
+"psf":5.20219 
+ }
+}

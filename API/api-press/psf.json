@@ -1,0 +1,12 @@
+{
+"result":"success",
+"base_code":"psf",
+"conversion_rates":{
+"psf":1, 
+"Pa":47.88027,
+"atm":0.00047, 
+"mmHg":0.35913, 
+"hPa":0.4788,
+"inH2O":0.19223 
+ }
+}

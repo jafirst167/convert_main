@@ -1,0 +1,17 @@
+{
+ "result":"success",
+ "base_code":"G",
+ "conversion_rates":{
+  "G":1,
+  "CARA":5,
+  "CG":100,
+  "DAG":0.1,
+  "HG":0.01,
+  "KG":0.001,
+  "LB":0.0022,
+  "MG":1000,
+  "OZ":0.04,
+  "TA":0.00001,
+  "TAN":0.000001
+ }
+}

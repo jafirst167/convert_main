@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/convert-form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body class="fullpage" ng-app="myApp">
+  <div class="app">
+    <header class="head">
+      <nav class="head__navbar">
+
+        <ul class="head__navbar-list">
+          <li class="head__navbar-item logo">
+            <a href="index.html">
+              <button class="btn btn-logo">Bộ chuyển đổi</button> 
+            </a>
+          </li>
+        </ul>
+        <ul class="head__navbar-list list__convert">
+          <li class="head__navbar-item list__convert-popular dropdown">
+              <button class="btn btn-listconvert"> Đại lượng thông dụng</button>
+              <div class="noidung_dropdown">
+                <a href="length.html">Chiều dài</a>
+                <a href="area.html">Diện tích</a>
+                <a href="volume.html">Thể tích</a>
+                <a href="mass.html">Khối lượng</a>
+                <a href="temperature.html">Nhiệt độ</a>
+              </div>
+          </li>
+          <li class="head__navbar-item list__convert-physics dropdown">
+            <button class="btn btn-listconvert"> Đại lượng vật lí</button>
+            <div class="noidung_dropdown">
+              <a href="velocity.html">Vận tốc</a>
+              <a href="press.html">Áp suất</a>
+              <a href="energy.html">Năng lượng</a>
+              <a href="power.html">Công suất</a>
+            </div>
+          </li>
+          <li class="head__navbar-item list__convert-days dropdown">
+            <button class="btn btn-listconvert"> <a href="time.html"> Ngày-giờ</a></button>
+            
+          </li>
+          <li class="head__navbar-item list__convert-currency dropdown">
+            <button class="btn btn-listconvert"><a href="currency.html">Đại lượng tiền tệ</a></button>
+            </div>
+          </li>
+        </ul>
+
+      </nav>
+    </header>
+    <body class="container">
+      <br><br><br> <br> <br><br> <br>
+      <h1 class="fontConv">Vận tốc</h1>
+      <div class="conv__container conv__form">
+        <div class="conv conv__length">
+          <select id="currency-one">
+            <option value="FPS" selected>FPS(feet/giây)</option>
+            <option value="KMH">KMH(kilomet/giờ)</option>
+            <option value="KMS">KMS(kilomet/giây)</option>
+            <option value="MMS">MMS(milimet/giây)</option>
+            <option value="MPH">MPH(dặm/giờ)</option>
+            <option value="MPS">MPS(dặm/giây)</option>
+            <option value="MS">MS(mét/giây)</option>
+            <option value="μMS">μMS(micromet/giây)</option>
+          </select>
+          <input type="number" id="amount-one" placeholder="0" value="1" />
+        </div>
+  
+        <div class="swap-rate-container">
+          <button class="btn" id="swap">Swap</button>
+          <div class="rate" id="rate"></div>
+        </div>
+  
+        <div class="conv conv__length">
+          <select id="currency-two">
+            <option value="FPS">FPS(feet/giây)</option>
+            <option value="KMH" selected>KMH(kilomet/giờ)</option>
+            <option value="KMS">KMS(kilomet/giây)</option>
+            <option value="MMS">MMS(milimet/giây)</option>
+            <option value="MPH">MPH(dặm/giờ)</option>
+            <option value="MPS">MPS(dặm/giây)</option>
+            <option value="MS">MS(mét/giây)</option>
+            <option value="μMS">μMS(micromet/giây)</option>
+          </select>
+          <input type="number" id="amount-two" placeholder="0" />
+        </div>
+      </div>
+
+      <script src="JS/velocity.js"></script>
+
+    </body>
+      
+  </div>
+</body>
+
+</html>

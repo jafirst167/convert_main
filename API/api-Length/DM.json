@@ -1,0 +1,16 @@
+{
+ "result":"success",
+ "base_code":"DM",
+ "conversion_rates":{
+  "KM":0.0001,
+  "M" :0.1,
+  "DM":1,
+  "CM":10,
+  "MM":100,
+  "INC":3.94,
+  "FT":0.33,
+  "YRD":0.11,
+  "NNM":100000000,
+  "μM" : 100000
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "result":"success",
+ "base_code":"YRD",
+ "conversion_rates":{
+  "KM":0.000914,
+  "M" :0.91,
+  "DM":9.14,
+  "CM":91.44,
+  "MM":914.4,
+  "INC":36,
+  "FT":3,
+  "YRD":1,
+  "NNM": 914400000,
+  "μM": 914400
+ }
+}

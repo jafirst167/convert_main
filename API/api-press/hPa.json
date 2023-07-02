@@ -1,0 +1,12 @@
+{
+"result":"success",
+"base_code":"hPa",
+"conversion_rates":{
+"hPa":1,
+"mmHg":0.75006, 
+"Pa":100,
+"atm":0.00099, 
+"inH2O":0.40147,
+"psf":2.08854 
+ }
+}

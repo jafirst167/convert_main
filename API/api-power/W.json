@@ -1,0 +1,12 @@
+{
+"result":"success",
+"base_code":"W",
+"conversion_rates":{
+"W":1,
+"kW":0.001, 
+"hp":0.00134,
+"JS":1,
+"BTUS":0.00095,
+"MW":0.000001 
+ }
+}

@@ -1,0 +1,16 @@
+{
+ "result":"success",
+ "base_code":"CM",
+ "conversion_rates":{
+  "KM":0.00001,
+  "M" :0.01,
+  "DM":0.1,
+  "CM":1,
+  "MM":10,
+  "INC":0.39,
+  "FT":0.03,
+  "YRD":0.01,
+  "NNM": 10000000,
+  "μM" : 10000
+ }
+}

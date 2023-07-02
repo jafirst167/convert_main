@@ -1,0 +1,17 @@
+{
+ "result":"success",
+ "base_code":"KG",
+ "conversion_rates":{
+  "KG":1,
+  "CARA":5000,
+  "CG":100000,
+  "G":1000,
+  "DAG":100,
+  "HG":10,
+  "LB":2.2,
+  "MG":1000000,
+  "OZ":35.27,
+  "TA":0.01,
+  "TAN":0.001
+ }
+}

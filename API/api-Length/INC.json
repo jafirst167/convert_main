@@ -1,0 +1,16 @@
+{
+ "result":"success",
+ "base_code":"INC",
+ "conversion_rates":{
+  "KM":0.0000254,
+  "M" :0.03,
+  "DM":0.25,
+  "CM":2.54,
+  "MM":25.4,
+  "INC":1,
+  "FT":0.08,
+  "YRD":0.03,
+  "NNM":25400000,
+  "μM": 25400
+ }
+}

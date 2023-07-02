@@ -1,0 +1,14 @@
+{
+ "result":"success",
+ "base_code":"KMS",
+ "conversion_rates":{
+  "KMS":1,
+  "KMH":3600,
+  "MS":1000,
+  "μMS":1000000000,
+  "MMS":1000000,
+  "MPS":0.62,
+  "MPH":2236.94,
+  "FPS":3280.84
+ }
+}

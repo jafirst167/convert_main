@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/convert-form.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body class="fullpage" ng-app="myApp">
+  <div class="app">
+    <header class="head">
+      <nav class="head__navbar">
+
+        <ul class="head__navbar-list">
+          <li class="head__navbar-item logo">
+            <a href="index.html">
+              <button class="btn btn-logo">Bộ chuyển đổi</button> 
+            </a>
+          </li>
+        </ul>
+        <ul class="head__navbar-list list__convert">
+          <li class="head__navbar-item list__convert-popular dropdown">
+              <button class="btn btn-listconvert"> Đại lượng thông dụng</button>
+              <div class="noidung_dropdown">
+                <a href="length.html">Chiều dài</a>
+                <a href="area.html">Diện tích</a>
+                <a href="volume.html">Thể tích</a>
+                <a href="mass.html">Khối lượng</a>
+                <a href="temperature.html">Nhiệt độ</a>
+              </div>
+          </li>
+          <li class="head__navbar-item list__convert-physics dropdown">
+            <button class="btn btn-listconvert"> Đại lượng vật lí</button>
+            <div class="noidung_dropdown">
+              <a href="velocity.html">Vận tốc</a>
+              <a href="press.html">Áp suất</a>
+              <a href="energy.html">Năng lượng</a>
+              <a href="power.html">Công suất</a>
+            </div>
+          </li>
+          <li class="head__navbar-item list__convert-days dropdown">
+            <button class="btn btn-listconvert"><a href="time.html">Ngày-giờ</a> </button>
+            
+          </li>
+          <li class="head__navbar-item list__convert-currency dropdown">
+            <button class="btn btn-listconvert"><a href="currency.html">Đại lượng tiền tệ</a></button>
+            </div>
+          </li>
+        </ul>
+
+      </nav>
+    </header>
+    <body class="container">
+      <br><br><br> <br> <br><br> <br>
+      <h1 class="fontConv">Tiền tệ</h1>
+      <div class="conv__container conv__form">
+        <div class="conv">
+          <select id="currency-one" onchange="myNewFunction(this)">
+            <option value="AED">AED (United Arab Emirates Dirham) </option>
+            <option value="ARS">ARS (Peso Argentina) </option>
+            <option value="AUD">AUD (Đô la Úc) </option>
+            <option value="BGN">BGN (Lev Bulgaria) </option>
+            <option value="BRL">BRL (Real Brazil) </option>
+            <option value="BSD">BSD (Đô la Bahamas) </option>
+            <option value="CAD">CAD (Đô la Canada) </option>
+            <option value="CHF">CHF (Swiss Franc) </option>
+            <option value="CLP">CLP (Peso Chile) </option>
+            <option value="CNY">CNY (Nhân dân tệ) </option>
+            <option value="COP">COP (Peso Colombia) </option>
+            <option value="CZK">CZK (Czech Koruny) </option>
+            <option value="DKK">DKK (Danish Kroner) </option>
+            <option value="DOP">DOP (Peso Dominica) </option>
+            <option value="EGP">EGP (Egyptian Pounds) </option>
+            <option value="EUR">EUR (Euro) </option>
+            <option value="FJD">FJD (Đô la Fiji) </option>
+            <option value="GBP">GBP (Bảng Anh) </option>
+            <option value="GTQ">GTQ (Quetzal Guatemala) </option>
+            <option value="HKD">HKD (Đô la Hong Kong) </option>
+            <option value="HRK">HRK (Croatian Kunas) </option>
+            <option value="HUF">HUF (Forint Hungary) </option>
+            <option value="IDR">IDR (Rupiah Indonesia) </option>
+            <option value="ILS">ILS (Shekel Israel) </option>
+            <option value="INR">INR (Indian Rupees) </option>
+            <option value="ISK">ISK (Icelandic Kronur) </option>
+            <option value="JPY">JPY (Yên Nhật) </option>
+            <option value="KRW">KRW (Won)</option>
+            <option value="KZT">KZT (Tenge Kazakhstan) </option>
+            <option value="MXN">MXN (Peso Mexico) </option>
+            <option value="MYR">MYR (Malaysian Ringgits) </option>
+            <option value="NOK">NOK (Norwegian Kroner) </option>
+            <option value="NZD">NZD (Đô la New Zealand) </option>
+            <option value="PAB">PAB (Balboa Panama) </option>
+            <option value="PEN">PEN (Nuevo Sol Peru) </option>
+            <option value="PHP">PHP (Peso Philippines) </option>
+            <option value="PKR">PKR (Rupee Pakistan) </option>
+            <option value="PLN">PLN (Polish Zlotych) </option>
+            <option value="PYG">PYG (Paraguayan Guarani) </option>
+            <option value="RON">RON (Leu Romania) </option>
+            <option value="RUB">RUB (Russian Rubles) </option>
+            <option value="SAR">SAR (Saudi Arabian Riyals) </option>
+            <option value="SEK">SEK (Swedish Kronor) </option>
+            <option value="SGD">SGD (Đô la Singapore) </option>
+            <option value="THB">THB (Thai Baht) </option>
+            <option value="TRY">TRY (Turkish Lire) </option>
+            <option value="TWD">TWD (Tân Đài tệ) </option>
+            <option value="UAH">UAH (Hryvnia Ukraina) </option>
+            <option value="USD" selected>USD (Đô la Mỹ) </option>
+            <option value="UYU">UYU ((Peso Uruguay) </option>
+            <option value="VND">VND (Việt Nam Đồng) </option>
+            <option value="ZAR">ZAR (South African Rand) </option>
+          </select>
+          <input type="number" id="amount-one" placeholder="0" value="1" />
+        </div>
+  
+        <div class="swap-rate-container">
+          <button class="btn" id="swap">Swap</button>
+          <div class="rate" id="rate"></div>
+        </div>
+  
+        <div class="conv">
+          <select id="currency-two">
+            <option value="AED">AED (United Arab Emirates Dirham) </option>
+            <option value="ARS">ARS (Peso Argentina) </option>
+            <option value="AUD">AUD (Đô la Úc) </option>
+            <option value="BGN">BGN (Lev Bulgaria) </option>
+            <option value="BRL">BRL (Real Brazil) </option>
+            <option value="BSD">BSD (Đô la Bahamas) </option>
+            <option value="CAD">CAD (Đô la Canada) </option>
+            <option value="CHF">CHF (Swiss Franc) </option>
+            <option value="CLP">CLP (Peso Chile) </option>
+            <option value="CNY">CNY (Nhân dân tệ) </option>
+            <option value="COP">COP (Peso Colombia) </option>
+            <option value="CZK">CZK (Czech Koruny) </option>
+            <option value="DKK">DKK (Danish Kroner) </option>
+            <option value="DOP">DOP (Peso Dominica) </option>
+            <option value="EGP">EGP (Egyptian Pounds) </option>
+            <option value="EUR" selected>EUR (Euro) </option>
+            <option value="FJD">FJD (Đô la Fiji) </option>
+            <option value="GBP">GBP (Bảng Anh) </option>
+            <option value="GTQ">GTQ (Quetzal Guatemala) </option>
+            <option value="HKD">HKD (Đô la Hong Kong) </option>
+            <option value="HRK">HRK (Croatian Kunas) </option>
+            <option value="HUF">HUF (Forint Hungary) </option>
+            <option value="IDR">IDR (Rupiah Indonesia) </option>
+            <option value="ILS">ILS (Shekel Israel) </option>
+            <option value="INR">INR (Indian Rupees) </option>
+            <option value="ISK">ISK (Icelandic Kronur) </option>
+            <option value="JPY">JPY (Yên Nhật) </option>
+            <option value="KRW">KRW (Won)</option>
+            <option value="KZT">KZT (Tenge Kazakhstan) </option>
+            <option value="MXN">MXN (Peso Mexico) </option>
+            <option value="MYR">MYR (Malaysian Ringgits) </option>
+            <option value="NOK">NOK (Norwegian Kroner) </option>
+            <option value="NZD">NZD (Đô la New Zealand) </option>
+            <option value="PAB">PAB (Balboa Panama) </option>
+            <option value="PEN">PEN (Nuevo Sol Peru) </option>
+            <option value="PHP">PHP (Peso Philippines) </option>
+            <option value="PKR">PKR (Rupee Pakistan) </option>
+            <option value="PLN">PLN (Polish Zlotych) </option>
+            <option value="PYG">PYG (Paraguayan Guarani) </option>
+            <option value="RON">RON (Leu Romania) </option>
+            <option value="RUB">RUB (Russian Rubles) </option>
+            <option value="SAR">SAR (Saudi Arabian Riyals) </option>
+            <option value="SEK">SEK (Swedish Kronor) </option>
+            <option value="SGD">SGD (Đô la Singapore) </option>
+            <option value="THB">THB (Thai Baht) </option>
+            <option value="TRY">TRY (Turkish Lire) </option>
+            <option value="TWD">TWD (Tân Đài tệ) </option>
+            <option value="UAH">UAH (Hryvnia Ukraina) </option>
+            <option value="USD">USD (Đô la Mỹ) </option>
+            <option value="UYU">UYU ((Peso Uruguay) </option>
+            <option value="VND">VND (Việt Nam Đồng) </option>
+            <option value="ZAR">ZAR (South African Rand) </option>
+          </select>
+          <input type="number" id="amount-two" placeholder="0" />
+        </div>
+      </div>
+
+      <script src="JS/currency.js"></script>
+
+    </body>
+      
+  </div>
+</body>
+
+</html>

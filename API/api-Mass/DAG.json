@@ -1,0 +1,17 @@
+{
+ "result":"success",
+ "base_code":"DAG",
+ "conversion_rates":{
+  "DAG":1,
+  "CARA":50,
+  "CG":1000,
+  "G":10,
+  "HG":0.1,
+  "KG":0.01,
+  "LB":0.02,
+  "MG":10000,
+  "OZ":0.35,
+  "TA":0.0001,
+  "TAN":0.00001
+ }
+}

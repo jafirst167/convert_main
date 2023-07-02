@@ -1,0 +1,12 @@
+{
+"result":"success",
+"base_code":"BTUS",
+"conversion_rates":{
+"BTUS":1,
+"hp":1.41485, 
+"kW":1.05506, 
+"W":1055.056,
+"JS":1055.056,
+"MW":0.00106 
+}
+}

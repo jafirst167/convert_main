@@ -1,0 +1,10 @@
+{
+ "result":"success",
+ "base_code":"M",
+ "conversion_rates":{
+  "M":1,
+  "H":0.016667,
+  "S":60,
+  "D":0.000694
+ }
+}

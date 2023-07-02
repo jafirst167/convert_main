@@ -1,0 +1,17 @@
+{
+ "result":"success",
+ "base_code":"HG",
+ "conversion_rates":{
+  "HG":1,
+  "CARA":500,
+  "CG":10000,
+  "G":100,
+  "DAG":10,
+  "KG":0.1,
+  "LB":0.22,
+  "MG":100000,
+  "OZ":3.53,
+  "TA":0.001,
+  "TAN":0.0001
+ }
+}
